@@ -13,7 +13,7 @@
 footer{
   width: 1110px;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .navbar{
   width: 100%;
@@ -98,7 +98,7 @@ footer{
   font-size: 20px;
   font-weight: 400;
   color: #7f7f7f;
-  margin-bottom: 20px;
+  
 }
 .footer a{
   display: flex;
