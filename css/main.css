@@ -9,7 +9,8 @@
 }
 /* header */
 .header,
-.content{
+.content,
+footer{
   width: 1110px;
   margin: 0 auto;
   border: 1px solid red;
@@ -78,4 +79,30 @@
 .content_two a{
   display: flex;
   margin-top: 50px;
+}
+footer{
+  margin-top: 30px;
+  background: #f0f0f0;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer h3{
+  font-size: 20px;
+  font-weight: 400;
+  color: #7f7f7f;
+  margin-bottom: 20px;
+}
+.footer a{
+  display: flex;
+  font-size: 25px;
+  font-weight: 700;
+  color: #808080;
 }
